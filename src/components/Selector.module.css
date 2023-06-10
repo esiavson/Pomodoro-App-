@@ -1,0 +1,45 @@
+.selector {
+    display: flex;
+    justify-content: center;
+  
+    padding: 7px;
+  
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    background-color: #161932;
+  
+    list-style: none;
+    border-radius: 1000px;
+    cursor: pointer;
+  
+    z-index: 1;
+  }
+  
+  .selector li {
+    padding: 15px 25px;
+    color: #d7e0ff;
+    opacity: 0.4;
+  }
+  
+  .selector li:hover {
+    opacity: 1;
+  }
+  
+  .isActive {
+    border-radius: 1000px;
+    color: #1e213f !important;
+    opacity: 1 !important;
+  }
+  
+  @media (max-width: 37.5em) {
+    .selector {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  
+    .selector li {
+      padding: 15px 23px;
+    }
+  }
+  

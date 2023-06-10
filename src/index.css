@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgcolor: #1e213f;
+
+  background-color: var(--bgcolor);
+
+  font-family: 'Kumbh Sans', sans-serif;
+
+  --kumbh: 'Kumbh Sans', sans-serif;
+  --slab: 'Roboto Slab', serif;
+  --space: 'Space Mono', monospace;
+
+  --redOrange: #f87070;
+  --aqua: #70f3f8;
+  --magenta: #d881f8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  justify-content: center;
+  color: #d7e0ff;
+  font-size: 14px;
+  line-height: 18px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 120px;
+  letter-spacing: -5px;
+  margin: 18px 0 0 0;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 34px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+button {
+  border-radius: 1000px;
+  border: 1px solid transparent;
+  padding: 18px 47px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #f87070;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fa8484;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    /* Very short durations means JavaScript that relies on events still works */
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@media (max-width: 37.5em) {
+  h1 {
+    font-size: 80px;
+    line-height: 100px;
+    letter-spacing: -4px;
+    margin: 14px 0 0 0;
+  }
+
+  h3 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+  }
+}

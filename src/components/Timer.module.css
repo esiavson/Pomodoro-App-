@@ -1,0 +1,62 @@
+.timer {
+    height: 366px;
+    width: 366px;
+    cursor: pointer;
+    border: solid 1px #161932;
+    border-radius: 1000px;
+    background-color: #161932;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .timerWrapper {
+    height: 410px;
+    width: 410px;
+    border-radius: 1000px;
+  
+    position: relative;
+  
+    background: linear-gradient(315deg, #2e325a 0%, #0e112a 100%);
+    box-shadow: -50px -50px 100px #272c5a, 50px 50px 100px #121530;
+  }
+  
+  .label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .label h3 {
+    margin-top: 18px;
+  }
+  
+  /* H3 hover classes */
+  .redOrange:hover h3 {
+    color: var(--redOrange);
+  }
+  .aqua:hover h3 {
+    color: var(--aqua);
+  }
+  .magenta:hover h3 {
+    color: var(--magenta);
+  }
+  
+  /* 300, 268 */
+  @media (max-width: 37.5em) {
+    .timer {
+      width: 268px;
+      height: 268px;
+    }
+  
+    .timerWrapper {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  

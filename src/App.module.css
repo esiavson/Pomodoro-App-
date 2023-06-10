@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  max-width: 410px;
+  align-items: center;
+}
+
+.title {
+  margin-top: 50px;
+}

@@ -1,0 +1,27 @@
+.inputBox {
+    display: flex;
+    align-items: center;
+    width: 135px;
+  
+    margin-top: 8px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    background-color: #eff1fa;
+  }
+  
+  .buttons {
+    position: absolute;
+    transform: translate(94px, 0);
+  }
+  
+  .label {
+    color: var(--bgcolor);
+    opacity: 0.4;
+  }
+  
+  @media (max-width: 37.5em) {
+    .inputBox {
+      padding: 10px 16px;
+    }
+  }
+  

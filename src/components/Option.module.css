@@ -1,0 +1,31 @@
+.option {
+    height: 40px;
+    width: 40px;
+    border-radius: 1000px;
+    text-align: center;
+    position: relative;
+    background-color: #eff1fa;
+    font-size: 15px;
+    color: #1e213f;
+    cursor: pointer;
+  }
+  
+  .option:hover {
+    outline: solid 1px #eff1fa;
+    outline-offset: 5px;
+  }
+  
+  .span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sans,
+  .serif,
+  .mono {
+    background-color: #161932;
+    color: #fff;
+  }
+  
